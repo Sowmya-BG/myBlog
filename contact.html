@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Blog</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/index.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header"><b>
+      <a class="navbar-brand" href="#" style="color:black;">My_Blog</a></b>
+    </div>
+    <ul class="nav navbar-nav" style="float:right;">
+      <li><a href="index.html">Home</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Academics<span class="caret"></span></a>
+      <ul class="dropdown-menu">
+          <li><a href="school.html">School</a></li>
+          <li><a href="puc.html">PUC</a></li>
+          <li><a href="engg.html">Engineering</a></li>
+          <li><a href="mtech.html">MTech</a></li>
+        </ul>
+      </li>
+
+      <li><a href="profession.html">Profession</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Project<span class="caret"></span></a>
+      <ul class="dropdown-menu">
+          <li><a href="project1.html">project1</a></li>
+          <li><a href="project2.html">Project2</a></li>
+          
+        </ul>
+      </li>
+      <li><a href="contact.html">Contact</a></li>
+      
+    </ul>
+  </div>
+</nav>
+  
+<div class="container">
+  <section id="content" class="column-right">
+			<article>
+			<!--<img src="images/contact_us.png" width="800px;" height="150px;" >-->
+			</article>
+
+<br>
+<div class="row">
+	<div class="col-sm-5">
+	<p>
+		<p>
+		<h4>Address</h4><hr>
+		    
+			<strong>Kala Bhyrava nilaya</strong><br />
+			no 4<br />
+			24th main, 50 feet road,<br />
+			near vijaya bank,<br />
+			girinagar,<br />
+			Bengaluru 560 085<br />
+			
+			<strong>Phone</strong>:  9876543210<br />
+			<strong>Email</strong>:<a href="sowmyabg315@gmail.com" target="_top"><i>sowmyabg315@gmail.com</i></a></br>
+			<strong>Website</strong>:  <a href="#"><i></i></a></br>
+		</p>
+	</div>
+	<div class="col-sm-7">
+		<form method="post" action="sendmail.jsp" class="form-horizontal">
+		<h4>Drop me a mail !</h4><hr>
+		    <div class="form-group">
+		        <label for="name" class="control-label col-xs-2">Name</label>
+		        <div class="col-xs-8">
+		            <input type="text" class="form-control" id="name" name="name" placeholder="" required="required">
+		        </div>
+		        <div class="col-xs-2">&nbsp;</div>
+		    </div>
+		    <div class="form-group">
+		        <label for="email" class="control-label col-xs-2">Email</label>
+		        <div class="col-xs-8">
+		            <input type="email" class="form-control" id="email" name="from" placeholder="" required="required">
+		        </div>
+		        <div class="col-xs-2">&nbsp;</div>
+		    </div>
+		    <div class="form-group">
+		        <label for="subject" class="control-label col-xs-2">Subject</label>
+		        <div class="col-xs-8">
+		            <input type="text" class="form-control" id="subject" name="subject" placeholder="" required="required">
+		        </div>
+		        <div class="col-xs-2">&nbsp;</div>
+		    </div>
+		    <div class="form-group">
+		        <label for="message" class="control-label col-xs-2">Message</label>
+		        <div class="col-xs-8">
+		            <textarea class="form-control" id="message" name="comments" placeholder="" maxlength="1000" required="required"></textarea>
+		        </div>
+		        <div class="col-xs-2">&nbsp;</div>
+		    </div>
+		    
+		    <div class="form-group">
+		        <div class="col-xs-offset-2 col-xs-10">
+		            <button type="submit" class="btn btn-primary ">Submit</button>
+		            <button type="reset" class="btn btn-primary ">Clear</button>
+		        </div>
+		    </div>
+		</form>
+	</div>
+</div>
+                		
+	<br />
+<h4>I'm are here </h4><hr>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<div class="row">
+	<div class="col-sm-12">
+		<div id="map" style="width: 720px; height: 300px;margin-bottom: 30px"></div> 
+	    <script type="text/javascript"> 
+	      var myLatlng = new google.maps.LatLng(12.9342481,77.5456628);
+	      var myOptions = {
+	         zoom: 15,
+	         center: myLatlng,
+	         mapTypeId: google.maps.MapTypeId.ROADMAP
+	      };
+
+	      var map = new google.maps.Map(document.getElementById("map"), myOptions);
+
+	      var marker = new google.maps.Marker({
+     			position: myLatlng,
+			    map: map,
+			    title: 'Girinagar'
+			  });
+
+	    </script> 
+	</div>
+</div>    
+
+</p>
+		</article>
+	
+		
+
+
+
+
+			
+			
+
+		</section>
+
+		<div class="clear"></div>
+
+	</section>
+</div>
+<div class="footer-bottom">
+
+	<div class="container" style="margin-top:178px; border:1px solid grey; background-color:#e6eeff; color:black; height:60px; padding-top:20px; width:100%">
+
+		<div class="row">
+
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+
+				<div class="copyright">
+
+					© 2017, All rights reserved
+
+				</div>
+
+			</div>
+
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+
+				<div class="design" >
+
+					  <a target="_blank" href="#" style="color:black; float:right;">Web Design & Development by sowmya</a>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</div>
+</body>
+</html>
