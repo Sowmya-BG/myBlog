@@ -1,0 +1,25 @@
+div.container-fluid
+{
+	background-color:#e6eeff;
+	height:70px;
+
+}
+a.navbar-brand
+{
+	color:black;
+	font-size:40px;
+}
+div.col-sm-9
+{
+	font-size:26px;
+}
+p{
+	text-align:justify;
+}
+h1{
+	font-size:30px;
+	color:#4da6ff;
+}
+div.a:hover{
+	color:red;
+}
